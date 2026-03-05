@@ -1,0 +1,7 @@
+# Smart AI CCTV System
+opencv-python>=4.8.0
+numpy>=1.24.0
+ultralytics>=8.0.0
+mediapipe<0.10.31  # Solutions API removed in 0.10.31+ (fight detection requires older version)
+plyer>=2.1.0
+huggingface-hub>=0.20.0

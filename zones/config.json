@@ -1,0 +1,28 @@
+{
+  "loitering_zones": [
+    {
+      "id": "zone_1",
+      "name": "Main Entrance",
+      "points": [[100, 100], [400, 100], [400, 350], [100, 350]],
+      "threshold_seconds": 30
+    },
+    {
+      "id": "zone_2",
+      "name": "Parking Lot",
+      "points": [[420, 150], [620, 150], [620, 400], [420, 400]],
+      "threshold_seconds": 45
+    }
+  ],
+  "weapon_detection": {
+    "enabled": true,
+    "confidence_threshold": 0.6
+  },
+  "fire_detection": {
+    "enabled": true,
+    "confidence_threshold": 0.5
+  },
+  "fight_detection": {
+    "enabled": true,
+    "pose_confidence_threshold": 0.7
+  }
+}
